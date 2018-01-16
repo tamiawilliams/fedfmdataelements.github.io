@@ -44,8 +44,8 @@ elements:</h3>
      capabilities.
 
 
-We have identified 531 FFM
-Data Elements:
+<h4 class="mt-0">We have identified 531 FFM
+Data Elements:</h4>
 
 92
 Elements from the DAIMS  <link to 92
@@ -58,8 +58,8 @@ elements> <link to FSDR TFM>
 31
 Elements and Definitions (see below)
 
-We are
-asking the FFM Community to weigh in on the selected data elements:
+<h4 class="mt-0">We are
+asking the FFM Community to weigh in on the selected data elements:</h4>
 
             Are these the correct mandatory FFM data
 elements?
