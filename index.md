@@ -77,39 +77,18 @@ the public input period. Thank you to all who provides input on these data
 elements.</p>
 
     </div>
-    <div class="col-md-4">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3>Get Involved</h3>
-            </div>
-            <div class="panel-body">
-                <p>
-
-Thank you for helping
-us improve government data. Below are ways you can stay up to date and offer
-your perspective to enhance government data quality.
-
-
-Office Hours Calls --
-Treasury FIT staff will provide an open forum for the FFM Community to ask any
-questions they may have about the FFM Data Elements Dial-in: (304) 480-5000
-Access Code: 612292#
-
-
-Thursday,
-January 25th @ 11:00AM-12:00PM EST
-
-
-Thursday,
-February 1st @ 1:00PM-2:00PM EST
-
-
-Software as a Service (SaaS) Industry Day – USSM will be hosting a SaaS
-Industry Day, where the FFM Use Cases will be demonstrated.  Get more information: <link to USSM
-Industry Day></p>
-            </div>
+  <div class="col-md-4">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Get Involved</h3>
+        </div>
+        <div class="panel-body">
+            <p>Visit the <a href="{{ site.baseurl }}/get-involved/" title="Get Involved">Get Involved</a> page to find out how to comment or participate in different aspects of this project.</p>
         </div>
     </div>
+</div>
+  
+
 </div>
 <div class="row mt-40">
     <div class="col-md-12">
