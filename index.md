@@ -3,7 +3,7 @@ published: true
 permalink: /index.html
 layout: hero
 filename: index.md
-title: Federal Spending Collaboration Space
+title: FFM Business Data Elements
 page: homepage
 ---
 
@@ -11,13 +11,70 @@ page: homepage
 
 <div class="row">
     <div class="col-md-8">
-        <h2 class="mt-0">About Federal Spending Transparency</h2>
+        <h2 class="mt-0">About Federal
+Financial Management (FFM) Business Data Elements</h2>
 
-        <p>In May 2014, President Obama signed the Digital Accountability and Transparency Act of 2014 (DATA Act) (P.L. 113-101) into law. Once implemented, the DATA Act will make federal spending data more accessible, searchable, and reliable. It will not only make it easier to understand how the federal government spends taxpayer dollars but will also serve as a tool for better oversight, data-centric decision-making, and innovation both inside and outside of government. The U.S. Department of the Treasury and the Office of Management and Budget are leading the government-wide implementation of the DATA Act.</p>
+        <p>
 
-        <p>This collaboration space is designed to openly share our <em><strong>process</strong></em> for meeting the new data transparency requirements of the DATA Act. Our sister site — <a href="https://beta.usaspending.gov/#/">Beta.USAspending.gov</a> — is where you will find the <em><strong>results</strong></em> of this work:  data you can search, view, and download. We invite you - the public - to interact with our site and share your feedback and questions on our <a href="https://usaspending-help.zendesk.com/hc/en-us/community/topics"> Community Page</a>!</p>
+The
+Department of the Treasury, Bureau of the Fiscal Service, Office of Federal
+Financial Management (FIT) is participating in the development of
+government-wide business standards. The goal of this initiative was to identify
+the critical Federal financial management (FFM) business data elements.  These elements have been deem mandatory in
+order to execute an agency’s FFM business capabilities. To complete this, FIT worked
+with a Federal Financial Management Working Group (FMWG) to review and refine
+these Data Elements. FMWG members included representation from the CFO Act
+agencies, OMB, GSA Unified Shared Services Management (USSM) Office, and the
+Department of Treasury.
+</p>
 
-        <p><a href="https://www.youtube.com/watch?v=X26IGyZ-SUY"><img style="width:600px;" src="{{ site.baseurl }}/assets/img/DATA_Act_Video.jpg" title="DATA Act Video"  /></a></p>
+<h3 class="mt-0">
+The
+lists on this page contain two types of required financial management data
+elements:</h3>
+
+
+
+
+ 1. Select
+     existing data elements defined in either the Data Act Information Model
+     Schema (DAIMS) and the Fiscal Service Data Registry (FSDR)
+ 2. Additional
+     data elements, and associated definitions, required for FFM business
+     capabilities.
+
+
+We have identified 531 FFM
+Data Elements:
+
+92
+Elements from the DAIMS  <link to 92
+elements> <link to DAIMS>
+
+408
+Elements from the FSDR  <link to 408
+elements> <link to FSDR TFM>
+
+31
+Elements and Definitions (see below)
+
+We are
+asking the FFM Community to weigh in on the selected data elements:
+
+            Are these the correct mandatory FFM data
+elements?
+
+            Are the definitions documented
+accurately communicated (for the 31 data elements defined below only)?
+
+            Are we missing any elements (please review the all 531 elements
+before responding)?
+       <p>The
+data elements are grouped by End-to-End Business Process; each short list
+represents a different process. In addition, each End-to-End Business Process will
+have it’s own GitHub issue, which is where you can see the input posted during
+the public input period. Thank you to all who provides input on these data
+elements.</p>
 
     </div>
     <div class="col-md-4">
@@ -26,7 +83,30 @@ page: homepage
                 <h3>Get Involved</h3>
             </div>
             <div class="panel-body">
-                <p>Visit the <a href="{{ site.baseurl }}/get-involved/" title="Get Involved">Get Involved</a> page to find out how to comment or participate in different aspects of this project.</p>
+                <p>
+
+Thank you for helping
+us improve government data. Below are ways you can stay up to date and offer
+your perspective to enhance government data quality.
+
+
+Office Hours Calls --
+Treasury FIT staff will provide an open forum for the FFM Community to ask any
+questions they may have about the FFM Data Elements Dial-in: (304) 480-5000
+Access Code: 612292#
+
+
+Thursday,
+January 25th @ 11:00AM-12:00PM EST
+
+
+Thursday,
+February 1st @ 1:00PM-2:00PM EST
+
+
+Software as a Service (SaaS) Industry Day – USSM will be hosting a SaaS
+Industry Day, where the FFM Use Cases will be demonstrated.  Get more information: <link to USSM
+Industry Day></p>
             </div>
         </div>
     </div>
