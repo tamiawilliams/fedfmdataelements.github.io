@@ -28,13 +28,13 @@ whitelist:
 
 navigation:
  - title: Home
-   url: /index.html
+   url: index.html
  - title: Data Elements
-   url: /data-elements
+   url: data-elements
  - title: Get Involved
-   url: /get-involved
+   url: get-involved
  - title: Issues
-   url: /issues
+   url: issues
 
 sass:
   sass_dir:          assets/_scss
