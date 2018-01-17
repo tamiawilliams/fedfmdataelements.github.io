@@ -6,3 +6,4 @@ Staticfile.auth
 #test
 .jekyll*
 .sass-cache*
+.idea

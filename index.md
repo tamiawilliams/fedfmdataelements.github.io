@@ -6,9 +6,6 @@ filename: index.md
 title: FFM Business Data Elements
 page: homepage
 ---
-
-{% include the-latest.html %}
-
 <div class="row">
     <div class="col-md-8">
         <h2 class="mt-0">About Federal

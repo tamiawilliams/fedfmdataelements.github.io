@@ -4,7 +4,6 @@ permalink: /data-elements/
 layout: article
 filename: data-elements.md
 title: Data Elements
-page: data-Elements
 ---
 
 # Federal Spending Data Elements
