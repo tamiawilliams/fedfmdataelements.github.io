@@ -6,396 +6,618 @@ filename: data-elements.md
 title: Data Elements
 ---
 
-# Federal Spending Data Elements
+The data elements are grouped by End-to-End Business Process; each short list represents a different process. In addition, each End-to-End Business Process will have it’s own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who provides input on these data elements.
 
-**The lists on this page contain two types of federal spending data elements:**
+## 010 - Budget Formulation-to-Execution
 
-1. Existing Federal Funding Accountability and Transparency Act (FFATA) data elements, which are currently featured on USAspending.gov
-2. Additional data elements required by the DATA Act that will be featured on USASpending.gov once the DATA Act is fully implemented
-
-The elements on these lists have been discussed by members of the federal community as part of the DATA Act.
-At the current time, these lists are exhaustive. That said, the federal community is aware of agencies’ and the larger community’s needs and may add and standardize new elements to improve transparency reporting moving forward.
-
-The data elements are grouped by category; each short list represents a different category. In addition, each element will have it's own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements.
-
-Data standards for these data elements have all been finalized. The final data element names and definitions are located [here](https://max.gov/datastandards).
-
-If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines]({{ site.baseurl }}/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site. 
-
-
-
-## Awardee and Recipient Entity Information
-
-This list includes information about recipients and awardees of federal funds. Please note that these elements will be standardized across the different types of awards (grants, contracts, etc.).
-
-<table class='table-bordered'>
-  <thead>
+<table class="table-bordered">
+    <thead>
     <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
     </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Awardee/Recipient Legal Entity Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for legal Entity name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Awardee/Recipient Unique Identifier</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for legal Entity identifier number">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Ultimate Parent Unique Identifier</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for ultimate parent unique identifier">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Ultimate Parent Legal Entity Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for ultimate parent legal Entity name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Address</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Address">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Congressional District</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Address">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Country Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Address">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Country Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Country Name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Total Compensation</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Total Compensation">feedback period closed</a></td>
-  </tr>
+    </thead>
+    <tr>
+        <td>BudgetAllotmentAmount</td>
+        <td>A subdivision of an apportionment that is made by the head of an agency.</td>
+        <td>FFMSR 2.1.1.1</td>
+        <td>Click here link to Issue #1 Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>BudgetSubAllotmentAmount</td>
+        <td>A subdivision of an allotment.</td>
+        <td>FFMSR 2.1.1.1</td>
+        <td>Click here link to Issue #1 Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AgencyFundCode</td>
+        <td>A code designated by the agency to a fund. It is a shorthand code entered on transactions that enables
+            the derivation of the account identification codes required for reporting externally to Treasury (the
+            TAS) and OMB (the budget account) as well as the derivation of USSGL account attributes. It can be used
+            for segregating funds that have multiple apportionment categories, or that have both discretionary and
+            mandatory authority.
+        </td>
+        <td>FFMSR 1.2.1.1<br/>FFMSR 1.3.1.1<br/>FFMSR 1.4.1.1</td>
+        <td>Click here link to Issue #1 Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>ReductionTypeCode</td>
+        <td>The code representing the USSGL attribute for a type of reduction being reported (e.g., Across The Board, Sequestration or Other) in detailed financial information.</td>
+        <td>FFMSR 1.1.1.3</td>
+        <td>Click here link to Issue #1 Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>UniqueInvestmentIdentifier</td>
+        <td>A persistent numeric code applied to an Investment that allows the identification and tracking of an Investment across multiple fiscal years (FYs) of an Agency’s information technology (IT) portfolio.</td>
+        <td>FFMSR 2.1.3.1</td>
+        <td>Click here link to Issue #1 Closes 2/9/2018</td>
+    </tr>
 </table>
 
+## 020 - Acquire-to-Dispose
 
-## Award Amount Information
-
-This list includes elements used to describe the amount of a certain award.
-
-<table class='table-bordered'>
-  <thead>
+<table class="table-bordered">
+    <thead>
     <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
     </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Amount of Award*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Non-Federal Funding Amount</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Federal Action Obligation*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Current Total Value of Award</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Potential Total Value of Award</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
+    </thead>
+    <tr>
+        <td>AssetRecognitionDate</td>
+        <td>The date that the acquiring entity receives the title for Property, Plants, and Equipment (PP&E) or the date
+            that the PP&E is delivered to the entity or to an agent of the entity. Constructed PP&E is recorded as
+            construction work in progress until it is placed in service, at which time the balance shall be transferred
+            to general PP&E.
+        </td>
+        <td>FFMSR 1.3.1.2<br/>FFMSR 1.1.3.4<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #2<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetCategoryName</td>
+        <td>Name of a common grouping of assets based on asset characteristics. The categories include Property, Plant,
+            and Equipment (PP&E); additional categorization for major classes of PP&E (e.g. buildings, equipment, land,
+            etc.); additional categorization for physical custody of PP&E (e.g. contractor-held or government-held);
+            inventory; heritage assets; stewardship land; and other assets.
+        </td>
+        <td>FFMSR 1.1.3.1</td>
+        <td>Click here link to Issue #2<br/>Closes 2/9/20188</td>
+    </tr>
+    <tr>
+        <td>AssetValueAmount</td>
+        <td>A current value of an asset as determined by the Property Management Process using appropriate FASAB
+            guidance.
+        </td>
+        <td>FFMSR 1.1.3.3</td>
+        <td>Click here link to Issue #2<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetCategoryQuantity</td>
+        <td>A number of asset units as determined by the property management process using appropriate FASAB guidance.
+        </td>
+        <td>FFMSR 1.1.3.3</td>
+        <td>Click here link to Issue #2<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetValueAdjustmentAmount</td>
+        <td>A modification to the current value of an asset based on value change (e.g., impact on current value of
+            depreciation, impairment, allowance for uncollectable amounts, subsidy allowance).
+        </td>
+        <td>FFMSR 1.1.3.3<br/>FFMSR 1.3.1.2<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #2<br/>Closes 2/9/2018</td>
+    </tr>
 </table>
 
+## 030 - Request-to-Procure
 
-## Award Characteristic Information
-
-These elements describe the different characteristics each award possesses – for example, its transaction code, its Award Identification (ID) Number, and so on.
-
-<table class='table-bordered'>
-  <thead>
+<table class="table-bordered">
+    <thead>
     <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
     </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/types/" title="Type of Transaction Code whitepaper">Award Type*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
-  </tr>
+    </thead>
     <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="feedback for North American Industrial Classification System Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Description</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="feedback for North American Industrial Classification System Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/cfdaprogramnumber-title/" title="CFDA Program Number_Title whitepaper">Catalog of Federal Domestic Assistance (CFDA) Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/cfdaprogramnumber-title/" title="CFDA Program Number_Title whitepaper">Catalog of Federal Domestic Assistance (CFDA) Title</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Treasury Account Symbol (excluding Sub-Account)</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Award Description</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Award Modification / Amendment Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Parent Award Identification (ID) Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Action Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Start Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Current End Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Potential End Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Ordering Period End Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Address</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Congressional District</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Award Identification (ID) Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/types/" title="Type of Transaction Code whitepaper">Record Type</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/types/" title="Type of Transaction Code whitepaper">Action Type*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/business-types/" title="Business Type whitepaper">Business Types*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/77" title="feedback Business Type">feedback period closed</a></td>
-  </tr>
+        <td>Pre-obligationApportionmentAmount</td>
+        <td>An amount applied to budgetary resources on a pre-obligation basis anticipating an obligation (e.g., a
+            request or an order such as a Request for Proposal). OMB usually apportions the budgetary resources of a
+            Treasury Account Fund Symbol (TAFS) with respect to the authority to incur new obligations.
+        </td>
+        <td>FFMSR 2.2.1.2<br/>FFMSR 2.2.1.4</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>GoodsAndServicesAcceptanceDate</td>
+        <td>Date that goods and/or services are inspected and accepted by the agency.</td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 1.1.5.4<br/>FFMSR 2.2.2.1<br/>FFMSR 2.2.5.5</td>
+        <td>Click here<br/>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>PaymentTermsText</td>
+        <td>Text from a contract or invoice that specifies the time period for a payment and the discount, if
+            applicable.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>CurrentValueOfFundsRate</td>
+        <td>A percentage rate based on the current value of funds to the Department of Treasury. It is used for Federal
+            debt collection, cash discounts, and rebate evaluation.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>DeliveryDate</td>
+        <td>The date on which the item/service is received and signed for delivery as described in the Prompt Payment
+            Act.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>InvoiceReceiptDate</td>
+        <td>The date on which the proper payment invoice is received by the designated agency office as described in the
+            Prompt Payment Act.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AdditionalPenaltyPaymentAmount</td>
+        <td>Amount of additional penalties owed to the vendor under the Prompt Payment Act if the late payment interest
+            was not paid by the due date and the vendor submits a written demand for the additional penalty.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>LateInterestPenaltyPaymentAmount</td>
+        <td>The interest amount owed to the vendor under the Prompt Payment Act for late payments.</td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AcceleratedPaymentIndicator</td>
+        <td>Indicates that a payment may be made prior to the due date as defined by the accelerated payment methods
+            under the Prompt Payment Act.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>OfferedDiscountRate</td>
+        <td>The discount rate offered by the vendor for early invoice payment under the Prompt Payment Act.</td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>DiscountDate</td>
+        <td>The date by which an early payment must be made in order to receive a specified payment reduction, or a
+            discount, under the Prompt Payment Act. The decision to take the discount should be made based on the best
+            interest of the government, as determined by Prompt Payment guidelines.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>DiscountTakenAmount</td>
+        <td>The amount of the invoice payment reduction offered by the vendor for early payment that was taken in
+            disbursement made to the vendor.
+        </td>
+        <td>FFMSR 2.2.2.1</td>
+        <td>Click here link to Issue #3<br/>Closes 2/9/2018</td>
+    </tr>
 </table>
 
+## 040 - Procure-to-Pay
 
-## Funding Entity Information
-
-These data elements describe characteristics of the entity that provided funding for an award.
-
-<table class='table-bordered'>
-  <thead>
+<table class="table-bordered">
+    <thead>
     <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
     </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Funding Agency Name whitepaper">Funding Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Funding Agency Name whitepaper">Funding Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Sub Tier Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Sub Tier Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Office Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Office Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
+    </thead>
+    <tr>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>Click here link to Issue #4<br/>Closes 2/9/2018</td>
+    </tr>
 </table>
 
+## 050 - Bill-to-Collect
 
-## Awarding Entity Information
-
-Elements on this list describe awarding entities – those that presented the awardee with the funding.
-
-<table class='table-bordered'>
-  <thead>
+<table class="table-bordered">
+    <thead>
     <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
     </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
+    </thead>
+    <tr>
+        <td>GoodsAndServicesAcceptanceDate</td>
+        <td>Date that goods and/or services are inspected and accepted by the agency.</td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 1.1.5.4<br/>FFMSR 2.2.2.1<br/>FFMSR 2.2.5.5</td>
+        <td>Click here link to Issue #5<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>DebtStatusName</td>
+        <td>A name for a classification of debt as defined in the Treasury Report on Receivables and Debt Collection
+            Activities. Examples include but are not limited to debt in bankruptcy, in forbearance or in formal appeals,
+            in foreclosure, at a private collection agency, in litigation, in the process of internal offset, in wage
+            garnishment, at Treasury for cross-servicing or offset, and collected at the agency.
+        </td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 2.2.5.1<br/>FFMSR 2.2.6.1</td>
+        <td>Click here link to Issue #5<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>TreasuryReportOnReceivablesDebtCategoryName</td>
+        <td>The name of a classification of receivable debt based on the type of activity receiving the debt and
+            reported on the Treasury Report on Receivables. This includes Commercial, Consumer, Foreign sovereign
+            government, and State and Local Government categories.
+        </td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 2.2.5.1<br/>FFMSR 2.2.6.1</td>
+        <td>Click here link to Issue #5<br/>Closes 2/9/2018</td>
+    </tr>
 </table>
 
+## 060 - Record-to-Report
 
-## Account Level Information
-
-This list features elements that describe the accounts from which the awards are funded.
-
-<table class='table-bordered'>
-  <thead>
+<table class="table-bordered">
+    <thead>
     <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
     </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/objectclass/" title="Object Class whitepaper">Object Class</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/19" title="feedback for Object Class">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Appropriations Account</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Appropriations Account">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Budget Authority Appropriated</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="feedback for Budget Authority Appropriated">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/obligation/" title="Obligation whitepaper">Obligation</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/20" title="feedback for Obligation">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unobligated-balance/" title="Unobligated balance whitepaper">Unobligated Balance</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/51" title="feedback for Unobligated balance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Other Budgetary Resources</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="feedback for Other Budgetary Resources">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/programactivity/" title="Program Activity whitepaper">Program Activity</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/21" title="feedback for Program Activity">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/outlay/" title="Outlay whitepaper">Outlay</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/30" title="feedback for Outlay">feedback period closed</a></td>
-  </tr>
+    </thead>
+    <tr>
+        <td>DebtStatusName</td>
+        <td>A name for a classification of debt as defined in the Treasury Report on Receivables and Debt Collection
+            Activities. Examples include but are not limited to debt in bankruptcy, in forbearance or in formal appeals,
+            in foreclosure, at a private collection agency, in litigation, in the process of internal offset, in wage
+            garnishment, at Treasury for cross-servicing or offset, and collected at the agency.
+        </td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 2.2.5.1<br/>FFMSR 2.2.6.1</td>
+        <td>Click here link to Issue #6<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>TreasuryReportOnReceivablesDebtCategoryName</td>
+        <td>The name of a classification of receivable debt based on the type of activity receiving the debt and
+            reported on the Treasury Report on Receivables. This includes Commercial, Consumer, Foreign sovereign
+            government, and State and Local Government categories.
+        </td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 2.2.5.1<br/>FFMSR 2.2.6.1</td>
+        <td>Click here link to Issue #6<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>ReceivableTransactionAdjustmentAmount</td>
+        <td>An amount applied to a receivable to increase or reduce the amount that the debtor owes based on a change in
+            position between issuance of the original invoice and creation of the receivable (e.g., from the application
+            of a credit memo or an offer in compromise).
+        </td>
+        <td>FFMSR 2.2.4.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #6<br/>Closes 2/9/2018</td>
+    </tr>
 </table>
 
-\* An asterisk (*) next to a data element name indicates that the name for that data element has changed since it was first posted here in December 2014.  All final data element names and definitions are posted [here](https://max.gov/datastandards).
+## 070 - Agree-to-Reimburse (Reimbursable Management)
+
+<table class="table-bordered">
+    <thead>
+    <tr>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>DebtStatusName</td>
+        <td>A name for a classification of debt as defined in the Treasury Report on Receivables and Debt Collection
+            Activities. Examples include but are not limited to debt in bankruptcy, in forbearance or in formal appeals,
+            in foreclosure, at a private collection agency, in litigation, in the process of internal offset, in wage
+            garnishment, at Treasury for cross-servicing or offset, and collected at the agency.
+        </td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 2.2.5.1<br/>FFMSR 2.2.6.1</td>
+        <td>Click here link to Issue #7<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>TreasuryReportOnReceivablesDebtCategoryName</td>
+        <td>The name of a classification of receivable debt based on the type of activity receiving the debt and
+            reported on the Treasury Report on Receivables. This includes Commercial, Consumer, Foreign sovereign
+            government, and State and Local Government categories.
+        </td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 2.2.5.1<br/>FFMSR 2.2.6.1</td>
+        <td>Click here link to Issue #7<br/>Closes 2/9/2018</td>
+    </tr>
+</table>
+
+## 080 - Apply-to-Perform (Grants Management)
+
+<table class="table-bordered">
+    <thead>
+    <tr>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>CostObjectCode</td>
+        <td>Code for an organizational division, program, activity, task, product, service, customer or item to which
+            accumulated costs are assigned.<br/>[Note: Cost Accounting data elements are still under review and subject
+            to change.]
+        </td>
+        <td>FFMSR 1.2.1.1<br/>FFMSR 1.2.1.2<br/>FFMSR 1.2.1.3</td>
+        <td>Click here link to Issue #8<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>CostObjectUnitQuantity</td>
+        <td>Quantity of the measure used to assign accumulated costs to a cost object. In the example of 20 staff days,
+            20 is the quantity and staff days is the unit of measure.<br/>[Note: Cost Accounting data elements are still
+            under review and subject to change.]
+        </td>
+        <td>FFMSR 1.2.1.1<br/>FFMSR 1.2.1.2<br/>FFMSR 1.2.1.3</td>
+        <td>Click here link to Issue #8<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>CostToBeAssignedAmount</td>
+        <td>Subset amount of accumulated costs to be assigned during a reporting time-period to a cost object based on
+            an appropriate unit of measure for the cost category.<br/>[Note: Cost Accounting data elements are still
+            under review and subject to change.]
+        </td>
+        <td>FFMSR 1.2.1.1<br/>FFMSR 1.2.1.2<br/>FFMSR 1.2.1.3</td>
+        <td>Click here link to Issue #8<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>CostAllocationMethodName</td>
+        <td>Name of method used to allocate accumulated costs among cost objects. [Note: Cost Accounting data elements
+            are still under review and subject to change.]
+        </td>
+        <td>FFMSR 1.2.1.1<br/>FFMSR 1.2.1.2<br/>FFMSR 1.2.1.3</td>
+        <td>Click here link to Issue #8<br/>Closes 2/9/2018</td>
+    </tr>
+</table>
+
+## 090 - Hire-to-Retire
+
+<table class="table-bordered">
+    <thead>
+    <tr>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>ReductionTypeCode</td>
+        <td>The code representing the USSGL attribute for a type of reduction being reported (e.g., Across The Board,
+            Sequestration or Other) in detailed financial information.
+        </td>
+        <td>FFMSR 1.1.1.3</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetRecognitionDate</td>
+        <td>The date that the acquiring entity receives the title for Property, Plants, and Equipment (PP&E) or the date
+            that the PP&E is delivered to the entity or to an agent of the entity. Constructed PP&E is recorded as
+            construction work in progress until it is placed in service, at which time the balance shall be transferred
+            to general PP&E.
+        </td>
+        <td>FFMSR 1.3.1.2<br/>FFMSR 1.1.3.4<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetCategoryName</td>
+        <td>Name of a common grouping of assets based on asset characteristics. The categories include Property, Plant,
+            and Equipment (PP&E); additional categorization for major classes of PP&E (e.g. buildings, equipment, land,
+            etc.); additional categorization for physical custody of PP&E (e.g. contractor-held or government-held);
+            inventory; heritage assets; stewardship land; and other assets.
+        </td>
+        <td>FFMSR 1.1.3.1</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetValueAmount</td>
+        <td>A current value of an asset as determined by the Property Management Process using appropriate FASAB
+            guidance.
+        </td>
+        <td>FFMSR 1.1.3.3</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetCategoryQuantity</td>
+        <td>A number of asset units as determined by the property management process using appropriate FASAB guidance.
+        </td>
+        <td>FFMSR 1.1.3.3</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetValueAdjustmentAmount</td>
+        <td>A modification to the current value of an asset based on value change (e.g., impact on current value of
+            depreciation, impairment, allowance for uncollectable amounts, subsidy allowance).
+        </td>
+        <td>FFMSR 1.1.3.3<br/>FFMSR 1.3.1.2<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>GoodsAndServicesAcceptanceDate</td>
+        <td>Date that goods and/or services are inspected and accepted by the agency.</td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 1.1.5.4<br/>FFMSR 2.2.2.1<br/>FFMSR 2.2.5.5</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AccrualAdjustmentAmount</td>
+        <td>For accrual-basis accounting, the amount applied to an accrual accumulated in a prior period in order to
+            provide more accurate and timely information for planning and control of operations and understanding of net
+            position and cost of operations.
+        </td>
+        <td>FFMSR 1.1.5.5</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>EntityNonEntityIndicator</td>
+        <td>Indicates that a reporting entity has authority to use an asset in its operations or if the asset is not
+            available to the entity.
+        </td>
+        <td>FFMSR 1.1.3.1</td>
+        <td>Click here link to Issue #9<br/>Closes 2/9/2018</td>
+    </tr>
+</table>
+
+## 100 - Book-to-Reimburse (Travel)
+
+<table class="table-bordered">
+    <thead>
+    <tr>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>AgencyFundCode</td>
+        <td>A code designated by the agency to a fund. It is a shorthand code entered on transactions that enables the
+            derivation of the account identification codes required for reporting externally to Treasury (the TAS) and
+            OMB (the budget account) as well as the derivation of USSGL account attributes. It can be used for
+            segregating funds that have multiple apportionment categories, or that have both discretionary and mandatory
+            authority.
+        </td>
+        <td>FFMSR 1.2.1.1<br/>FFMSR 1.3.1.1<br/>FFMSR 1.4.1.1<br/>FFMSR 2.1.1.1<br/>FFMSR 2.2.3.1</td>
+        <td>Click here link to Issue #10<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetRecognitionDate</td>
+        <td>The date that the acquiring entity receives the title for Property, Plants, and Equipment (PP&E) or the date
+            that the PP&E is delivered to the entity or to an agent of the entity. Constructed PP&E is recorded as
+            construction work in progress until it is placed in service, at which time the balance shall be transferred
+            to general PP&E.
+        </td>
+        <td>FFMSR 1.3.1.2<br/>FFMSR 1.1.3.4<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #10<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetCategoryName</td>
+        <td>Name of a common grouping of assets based on asset characteristics. The categories include Property, Plant,
+            and Equipment (PP&E); additional categorization for major classes of PP&E (e.g. buildings, equipment, land,
+            etc.); additional categorization for physical custody of PP&E (e.g. contractor-held or government-held);
+            inventory; heritage assets; stewardship land; and other assets.
+        </td>
+        <td>FFMSR 1.1.3.1</td>
+        <td>Click here link to Issue #10<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetValueAmount</td>
+        <td>A current value of an asset as determined by the Property Management Process using appropriate FASAB
+            guidance.
+        </td>
+        <td>FFMSR 1.1.3.3</td>
+        <td>Click here link to Issue #10<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetCategoryQuantity</td>
+        <td>A number of asset units as determined by the property management process using appropriate FASAB guidance.
+        </td>
+        <td>FFMSR 1.1.3.3</td>
+        <td>Click here link to Issue #10<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetValueAdjustmentAmount</td>
+        <td>A modification to the current value of an asset based on value change (e.g., impact on current value of
+            depreciation, impairment, allowance for uncollectable amounts, subsidy allowance).
+        </td>
+        <td>FFMSR 1.1.3.3<br/>FFMSR 1.3.1.2<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #10<br/>Closes 2/9/2018</td>
+    </tr>
+</table>
+
+## 110 - Apply-to-Repay
+
+<table class="table-bordered">
+    <thead>
+    <tr>
+        <th>Recommended Data Element Name</th>
+        <th>Recommended Definition</th>
+        <th>Business Capability Reference</th>
+        <th> Provide Feedback</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>AgencyFundCode</td>
+        <td>A code designated by the agency to a fund. It is a shorthand code entered on transactions that enables the
+            derivation of the account identification codes required for reporting externally to Treasury (the TAS) and
+            OMB (the budget account) as well as the derivation of USSGL account attributes. It can be used for
+            segregating funds that have multiple apportionment categories, or that have both discretionary and mandatory
+            authority.
+        </td>
+        <td>FFMSR 1.2.1.1<br/>FFMSR 1.3.1.1<br/>FFMSR 1.4.1.1<br/>FFMSR 2.1.1.1<br/>FFMSR 2.2.3.1</td>
+        <td>Click here link to Issue #11<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetRecognitionDate</td>
+        <td>The date that the acquiring entity receives the title for Property, Plants, and Equipment (PP&E) or the date
+            that the PP&E is delivered to the entity or to an agent of the entity. Constructed PP&E is recorded as
+            construction work in progress until it is placed in service, at which time the balance shall be transferred
+            to general PP&E.
+        </td>
+        <td>FFMSR 1.3.1.2<br/>FFMSR 1.1.3.4<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #11<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetValueAmount</td>
+        <td>A current value of an asset as determined by the Property Management Process using appropriate FASAB
+            guidance.
+        </td>
+        <td>FFMSR 1.1.3.3</td>
+        <td>Click here link to Issue #11<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>AssetValueAdjustmentAmount</td>
+        <td>A modification to the current value of an asset based on value change (e.g., impact on current value of
+            depreciation, impairment, allowance for uncollectable amounts, subsidy allowance).
+        </td>
+        <td>FFMSR 1.1.3.3<br/>FFMSR 1.3.1.2<br/>FFMSR 2.3.2.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #11<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>GoodsAndServicesAcceptanceDate</td>
+        <td>Date that goods and/or services are inspected and accepted by the agency.</td>
+        <td>FFMSR 1.1.5.1<br/>FFMSR 1.1.5.4<br/>FFMSR 2.2.2.1<br/>FFMSR 2.2.5.5</td>
+        <td>Click here link to Issue #11<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>ReceivableTransactionAdjustmentAmount</td>
+        <td>An amount applied to a receivable to increase or reduce the amount that the debtor owes based on a change in
+            position between issuance of the original invoice and creation of the receivable (e.g., from the application
+            of a credit memo or an offer in compromise).
+        </td>
+        <td>FFMSR 2.2.4.1<br/>FFMSR 2.3.2.2</td>
+        <td>Click here link to Issue #11<br/>Closes 2/9/2018</td>
+    </tr>
+    <tr>
+        <td>EntityNonEntityIndicator</td>
+        <td>Indicates that a reporting entity has authority to use an asset in its operations or if the asset is not
+            available to the entity.
+        </td>
+        <td>FFMSR 1.1.3.1</td>
+        <td>Click here link to Issue #11<br/>Closes 2/9/2018</td>
+    </tr>
+</table>
