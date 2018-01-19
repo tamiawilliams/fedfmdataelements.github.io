@@ -5,7 +5,6 @@ layout: article
 filename: data-elements.md
 title: Data Elements
 ---
-
 The data elements are grouped by End-to-End Business Process; each short list represents a different process. In addition, each End-to-End Business Process will have it’s own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who provides input on these data elements.
 
 ## 010 - Budget Formulation-to-Execution
