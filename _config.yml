@@ -1,16 +1,15 @@
 #document settings
-title: Federal Spending Transparency
-desc: "DATA Act Collaboration Space"
-url: //fedspendingtransparency.github.io/
-repo_name: fedspendingtransparency.github.io
+
+title: Federal Financial Management (FFM)
+desc: "Business Data Elements Collaboration Space"
+url: /fedfmdataelements.github.io
+repo_name: fedfmdataelements.github.io
 branch: master
 encoding: utf-8
 
-
-
 #global settings, no need to change these
-root_url: //fedspendingtransparency.github.io
-org_name: fedspendingtransparency
+root_url: //fedfmdataelements.github.io
+org_name: fedfmdataelements
 
 # default build settings for running locally, no need to edit
 highlighter: rouge
@@ -30,27 +29,10 @@ whitelist:
 navigation:
  - title: Home
    url: /index.html
- - title: About
-   url: /about
- - title: Data Model
-   url: /data-model
- - title: DAIMS v1.2
-   url: /DAIMS-v1.2
- # - title: Data Broker
- #   url: /data-broker
- - title: User-Centered Design
-   url: /user-centered-design
+ - title: Data Elements
+   url: /data-elements
  - title: Get Involved
-   url: "/get-involved"
- - title: DATA Act-ivity
-   url: "/act-ivity" 
- - title: Data Lab
-   url: "/data-lab"
-
- # - title: Discuss
- #   url: "https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues"
- # - title: Get Updates
- #   url: "https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa"
+   url: /get-involved
 
 sass:
   sass_dir:          assets/_scss

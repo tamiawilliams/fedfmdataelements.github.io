@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 permalink: /DAIMS-v1.2/
 layout: article
 filename: DAIMS-v1.2.md
